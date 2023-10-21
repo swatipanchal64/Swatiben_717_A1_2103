@@ -59,7 +59,7 @@ form {
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -112,4 +112,19 @@ form {
 
 .gallery-item {
     max-width: 45%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .row-6, .row-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }  
+}
+
+@media only screen and (max-width: 545px) {
+
+    .education-tbl td {
+        padding: 5px;
+    }
 }
