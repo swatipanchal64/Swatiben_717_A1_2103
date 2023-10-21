@@ -1,0 +1,94 @@
+.gradient {
+    background: linear-gradient(to right, #000000 0%, #ffffff 100%);
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header-wrapper {}
+
+.header-h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.tag-line {
+    font-size: 15px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-ul li {
+    margin-right: 20px;
+}
+
+.pad-20 {
+    padding: 20px 0;
+}
+
+.box-shadow {box-shadow: 0 5px 10px 0px rgba(0,0,0,0.2);}
+
+.nav-ul li a {text-decoration: none;color: black;transition: all 0.2s ease;border-bottom: 1px solid transparent;}
+
+.nav-ul li a:hover, .nav-ul li a:active, .nav-ul li a.active {
+    border-bottom: 1px dashed black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-8 {
+    width: 80%;
+}
+
+.row-4 {
+    width: 15%;
+}
+
+.content-h2 {
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.content-paras p {
+    margin-bottom: 15px;
+}
+
+.sub-header-aside {
+    color: #666;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+.aside-links li a {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
